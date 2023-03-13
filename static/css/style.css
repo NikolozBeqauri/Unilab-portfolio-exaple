@@ -1,5 +1,11 @@
 :root{
     --main-color: #00FFF5;
+    --secondary-color: white;
+    --main-weight: 800;
+    --secondary-weight: 400;
+    --main--font-size: 30px;
+    --secondary-font-size: 20px;
+    --main-line-height: 27px;
 }
 html {
     scroll-behavior: smooth;
@@ -11,7 +17,7 @@ html {
 }
 .button-design{
     background-color: var(--main-color);
-    border-radius: 30px;
+    border-radius: var(--main--font-size);
     padding: 12px 44px;
     cursor: pointer;
 }
@@ -41,7 +47,7 @@ header nav ul{
     border-radius: 40px;
 }
 .header-logo-div a{
-    Font-size: 30px;
+    Font-size: var(--main--font-size);
     Line-height: 41px;
 }
 .header-navigation-members-div a{ 
@@ -53,7 +59,7 @@ header nav ul{
 }
 .about-title{
     text-align: center;
-    font-weight: 800;
+    font-weight: var(--main-weight);
     font-size: 28px;
     line-height: 38px;
     color: var(--main-color);
@@ -96,9 +102,9 @@ header nav ul{
     line-height: 33px;
 }
 .about-content-texts p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
+    font-weight: var(--secondary-weight);
+    font-size: var(--secondary-font-size);
+    line-height: var(--main-line-height);
 }
 .about-content-texts button{
    background-color: var(--main-color);
@@ -148,8 +154,8 @@ header nav ul{
     gap: 45px;
 }
 .work-section-title{
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: var(--main-weight);
+    font-size: var(--main--font-size);
     line-height: 41px;
     color: var(--main-color);
 }
@@ -187,8 +193,8 @@ header nav ul{
     margin-bottom: 150px;
 }
 .experience-title{
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: var(--main-weight);
+    font-size: var(--main--font-size);
     line-height: 41px;
     color: var(--main-color);
     margin-bottom: 41px;
@@ -199,10 +205,10 @@ header nav ul{
     gap: 40px;
 }
 .card-date p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF;
+    font-weight: var(--secondary-weight);
+    font-size: var(--secondary-font-size);
+    line-height: var(--main-line-height);
+    color: var(--secondary-color);
 }
 .card-content-div{
     border: 1px dashed #0066FF;
@@ -219,7 +225,7 @@ header nav ul{
 .card-content-div{
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: var(--secondary-color);
 }
 .card-title-div{
     display: flex;
@@ -238,7 +244,7 @@ header nav ul{
     flex-direction: column;
     align-items: end;
     gap: 20px;
-    font-weight: 400;
+    font-weight: var(--secondary-weight);
     font-size: 16px;
     line-height: 22px;
     width: 70%;
@@ -246,9 +252,9 @@ header nav ul{
 .card-paragraphs-button div button{
     border: none;
     background-color: #061427;
-    color: white;
+    color: var(--secondary-color);
     cursor: pointer; 
-    font-weight: 400;
+    font-weight: var(--secondary-weight);
     font-size: 16px;
     line-height: 22px;
 }
@@ -264,7 +270,7 @@ header nav ul{
     align-items: center;
     flex-direction: column;
     gap: 65px;
-    color: white;
+    color: var(--secondary-color);
 }
 .contact-titles-wrapper{
     display: flex;
@@ -273,8 +279,8 @@ header nav ul{
     gap: 35px;
 }
 .contact-titles-wrapper h2{
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: var(--main-weight);
+    font-size: var(--main--font-size);
     line-height: 41px;
     color: var(--main-color);
 }
@@ -295,10 +301,10 @@ header nav ul{
 }
 .contact-address div a{
     text-decoration: none;
-    color: white;
+    color: var(--secondary-color);
     font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: var(--secondary-font-size);
+    line-height: var(--main-line-height);
 }
 .contact-content-wrapper{
     display: flex;
@@ -329,8 +335,8 @@ header nav ul{
     gap: 60px;
 }
 .my-work-wrapper h2{
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: var(--main-weight);
+    font-size: var(--main--font-size);
     line-height: 41px;
     color: #00FFF5;
     text-align: center;
@@ -346,15 +352,15 @@ header nav ul{
     gap: 20px;
 }
 .my-work-texts h3{
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: var(--main-weight);
+    font-size: var(--main--font-size);
     line-height: 41px;
 }
 .my-work-texts span,
 .my-work-texts p{
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
+    font-weight: var(--main-weight);
+    font-size: var(--secondary-font-size);
+    line-height: var(--main-line-height);
 }
 .my-work-button-div{
     position: absolute;

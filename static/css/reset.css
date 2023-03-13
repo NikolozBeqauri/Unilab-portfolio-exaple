@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 *,
-*before,
+*::before,
 *::after{
     box-sizing: border-box;
     margin: 0;
